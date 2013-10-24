@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- to do list: http://schema.org/Organization -> metadata for Google, Microsoft, Yandex, and Yahoo! -->
+		<!-- GO DAWGS! -->
+
+		<meta charset="UTF-8">
+		<meta name="description" content="Speech and Debate Society at the University of Washington">
+		<meta name="keywords" content="sdsuw, uw, rso, seattle, speech, debate, parliamentary">
+		<meta name="author" content="loufan@uw.edu">
+
+		<!-- responsive design element -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- tab header information -->
+		<title>Speech and Debate Society at UW</title>
+		<link rel="shortcut icon" href="img/logo-small.png">
+
+		<!-- stylesheet links -->
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sds-nav-collapse">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.shtml">Speech and Debate Society at UW</a>
+				</div>
+
+				<div class="collapse navbar-collapse sds-nav-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Announcements</a></li>
+						<li><a href="#">Achievements</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Student Testimonials</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul>
+				</div>
+			</nav>
+
+
+
+			<footer class="navbar navbar-fixed-bottom">
+				<img src="img/jackson-logo.png" alt="jackson school logo" class="footer-pic">
+				<p>Sponsored by the Henry M. Jackson School of International Studies</p>
+				<p>University of Washington</p>
+			</footer>
+
+		</div> <!-- .container -->
+
+		<!-- hot link to minified jQuery library, version 2.0.3 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+		<!-- link to JavaScript file -->
+		<script src="js/jquery-demo.js"></script>
+	</body>
+</html>
