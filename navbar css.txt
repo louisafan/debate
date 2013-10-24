@@ -45,11 +45,7 @@ NEED TO REPLACE THIS:
 }
 
 
-/*
- * Main navigation
- *
- * Turn the `.navbar` at the top of the docs purple.
- */
+WITH THIS:
 
 .bs-docs-nav {
   text-shadow: 0 -1px 0 rgba(0,0,0,.15);
